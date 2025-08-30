@@ -1,0 +1,11 @@
+.heading{
+    align-items: center;
+}
+.background{
+    background-color: rgb(132, 228, 228);
+    padding: 20px;
+}
+
+.the-paragraphs{
+    font-size: large;
+}
