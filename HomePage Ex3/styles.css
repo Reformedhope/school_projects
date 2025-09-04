@@ -1,0 +1,15 @@
+h2{
+    padding-left: 15px;
+    align-items: center;
+}
+
+body{
+align-items: center;
+padding: 5px;
+background-color: antiquewhite;
+}
+
+.intro{
+width: 350px; 
+overflow-wrap: break-word;
+}
