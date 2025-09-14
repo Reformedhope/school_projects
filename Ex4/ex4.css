@@ -1,0 +1,28 @@
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("GreatDepression.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-size: larger;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.save-pic{
+    text-align: center;
+    
+}
+
+.text{
+  padding: 80px;
+}
+
+
