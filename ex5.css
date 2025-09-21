@@ -2,7 +2,7 @@ body{
    justify-content: center;
    background: 
     linear-gradient(rgba(150, 130, 130, 0.5), rgba(253, 253, 253, 0.5)), 
-    url("/imageEx5/pewtery1.jpeg");
+    url("pewtery1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,8 +13,10 @@ body{
 
 #whole-style{
     margin: 20px;
-    padding: 20px;
-    justify-content: center;
+    padding-left: 500px;
+    padding-right: 600px;
+
+
     
 }
 
@@ -62,4 +64,6 @@ a:hover{
     bottom: 0;
     left: 0;
     width: 100%;
+    padding-left: 500px;
+    padding-right: 600px;
 }
