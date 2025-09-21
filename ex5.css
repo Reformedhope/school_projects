@@ -1,9 +1,65 @@
 body{
    justify-content: center;
+   background: 
+    linear-gradient(rgba(150, 130, 130, 0.5), rgba(253, 253, 253, 0.5)), 
+    url("/imageEx5/pewtery1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+
 }
+
+#whole-style{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+#header{
+    background-color: rgb(94, 116, 240);
+    text-align:  center;
+    border: 3px solid #05464e;
+    border-width: 1px 2px 3px 4px;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+     border-style: double;
+     border-radius: 10px;
+
+}
+
 ul{
     list-style-type:circle;
 }
+img{
+    border: 10px;
+    border-radius: 200px;
+}
 a{
+    background: 
+    linear-gradient(rgba(150, 130, 130, 0.5), rgba(253, 253, 253, 0.5));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    border: 3px solid #05464e;
+    border-width: 1px 2px 3px 4px;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+     border-style:hidden;
+     border-radius: 20px;
     
+    
+    
+    
+}
+a:hover{
+    background-color: rgb(180, 115, 241);
+    
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
