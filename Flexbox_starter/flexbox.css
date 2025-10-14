@@ -2,7 +2,11 @@ body{
   font-family: Geneva, sans-serif;
 }
 ul{
+  border: 1px solid red;
+  padding: 0;
+  background-color: aqua;
   display: flex;
+  justify-content: space-around;
 }
 li{
   width: 100px;
