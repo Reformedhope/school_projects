@@ -1,0 +1,44 @@
+nav {
+  background-color: rgb(207, 245, 245);
+  display: flex;
+  padding: 1rem;
+    text-align:  center;
+    border: 3px solid #022f35;
+    border-width: 1px 2px 3px 4px;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+     border-style:groove;
+     border-radius: 10px;
+}
+body{
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+ul li::marker {
+  color: red;
+  font-size: 1.2em;
+  content: "😺 "; 
+}
+ a{
+    text-decoration: none;
+ }
+ p{
+    align-items: center;
+    padding: 1px;
+ }
+ .bottom{
+    background-color: bisque;
+     position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+}
+ .picture{
+      text-align: center;
+ }
+
+
+
+ /* Custome Styles per Page */
+ /* HomePage */
+
