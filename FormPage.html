@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old-Time-Computer Museum</title>
+    <link rel="stylesheet" href="FormPage.css">
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="container header-container">
+        <h1 class="logo">Old-Time-Computer Museum</h1>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== Main Information  ===== -->
+    <main class="site-main container">
+      <section class="intro-section">
+        <div>
+          <form action="ConfirmationPage.html" method="get">
+            <fieldset>
+              <h3>Make a pledge to the Museum</h3>
+              <p>
+                Making a pledge is a big deal, not only for us but for you as
+                well. It show you care about your local community and the
+                history it provides.
+              </p>
+
+              <h3>Basic Information:</h3>
+
+              <label >Full Name: </label>
+              <input type="text" name="FullName" id="firstlast" >
+
+              <label >Email:</label>
+              <input type="text" name="email" id="email" >
+
+              <h3>Address Information:</h3>
+
+              <label >Street1:</label>
+              <input type="text" name="street1" id="street1" >
+
+              <label >Street2(Apartment or housing #):</label>
+              <input type="text" name="street2" id="street2" >
+
+              <label >City:</label>
+              <input type="text" name="city" id="city" >
+
+              <label >State:</label>
+              <input type="text" name="state" id="state" >
+
+              <label >Zip:</label>
+              <input type="text" name="zip" id="zip" >
+            </fieldset>
+            <fieldset>
+              <h3>Pledge Options</h3>
+              <select name="pledge">
+                <option>Student($20)</option>
+                <option>Individual($45)</option>
+                <option>Family($60)</option>
+                <option>Patron($250)</option>
+                <option>Benefactor($750)</option>
+              </select>
+            </fieldset>
+            <fieldset>
+                <h3>Please let us know if someone inspired you to give the pledge and whom.</h3>
+                <label > (optional)</label>
+              <input type="text" class="textarea" placeholder="100 words or less" >
+            </fieldset>
+            <input type="button" value="Submit" class = "btn-primary" onclick="window.location.href='ConfirmationPage.html'">
+          </form>
+        </div>
+        <div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>2025 My form page. All images are Copyright.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -9,9 +9,10 @@
 
 /* Responsive variables */
 :root {
-  --color-primary: #073a3d;
-  --color-secondary: #ff6600;
-  --color-bg: #8ae0f0;
+  --color-primary: #87b8e6;
+  --color-secondary: #51cf9b;
+  --color-text-hover: rgb(4, 71, 34);
+  --color-bg: #f9f9f9;
   --color-text: #333;
   --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --max-width: 1200px;
@@ -24,20 +25,27 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
+  justify-content: center;
+  
+  /* background */
+   background: 
+    linear-gradient(rgba(122, 116, 116, 0.5), rgba(253, 253, 253, 10)), 
+    url("computer_history_m.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-html, body{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
 
-}
 a {
   text-decoration: none;
   color: var(--color-primary);
   transition: 0.3s;
 }
 a:hover {
-  color: var(--color-secondary);
+  color: var(--color-text-hover);
+  
+
 }
 
 /* Container */
@@ -49,7 +57,7 @@ a:hover {
 
 /* Header */
 .site-header {
-  background-color: #97ecda;
+  background-color: #b2c5ce;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   padding: var(--spacing) 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -66,22 +74,20 @@ a:hover {
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .main-nav ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
 }
-
 .main-nav a {
   font-weight: 500;
+  color: black;
 }
 
 /* Main Information  */
 .site-main {
   padding: 3rem 0;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  flex: 1;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .intro-section h2 {
@@ -107,15 +113,6 @@ a:hover {
   background-color: var(--color-secondary);
 }
 
-/* Footer */
-.site-footer {
-  background-color: #222;
-  color: #fff;
-  text-align: center;
-  padding: 2rem 0;
-  margin-top: 2rem;
-}
-
 /* Responsive additions */
 @media (max-width: 768px) {
   .header-container {
@@ -132,3 +129,5 @@ a:hover {
     font-size: 1.5rem;
   }
 }
+
+
